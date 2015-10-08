@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="andruids.practice"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/iconapp" android:label="POCKESTRA">
+        <activity android:name=".PracticeActivity"
+                  android:label="Pockestra!">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity
+android:name="ActivityTwo"
+android:label="Select Instrument">
+   </activity>
+    <activity
+android:name="ActivityThree"
+android:label="Recording">
+   </activity>
+    <activity
+android:name="ActivityFour"
+android:label="What now?">
+   </activity>
+    <activity
+android:name="ActivityFive"
+android:label="Save As">
+   </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="8"/>
+</manifest>
